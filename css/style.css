@@ -12,7 +12,7 @@
 
 .nav-bg {
     background-color: #ff6900;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .nav-bar {
@@ -50,4 +50,38 @@ header .login {
 
 header .login i {
     padding: 0.5rem;
+}
+
+.card img {
+    width: 30%;
+    display: block;
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-img .discount {
+    position: absolute;
+    bottom: 15%;
+    color: white;
+    padding: 0.3rem 0.6rem;
+}
+
+.card-img .discount.price {
+    left: 0;
+    background-color: red;
+}
+
+.card-img .discount.written {
+    left: 7%;
+    background-color: green;
+}
+
+.card-img .hearth {
+    position: absolute;
+    font-size: 3rem;
+    background-color: white;
+    top: 0;
+    right: 0;
 }
