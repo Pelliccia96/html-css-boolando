@@ -52,8 +52,13 @@ header .login i {
     padding: 0.5rem;
 }
 
-.card img {
+.card {
     width: 30%;
+    padding-top: 3rem;
+}
+
+.card img {
+    width: 100%;
     display: block;
 }
 
@@ -66,6 +71,7 @@ header .login i {
     bottom: 15%;
     color: white;
     padding: 0.3rem 0.6rem;
+    font-weight: bold;
 }
 
 .card-img .discount.price {
@@ -74,7 +80,7 @@ header .login i {
 }
 
 .card-img .discount.written {
-    left: 7%;
+    left: 22%;
     background-color: green;
 }
 
@@ -82,6 +88,20 @@ header .login i {
     position: absolute;
     font-size: 3rem;
     background-color: white;
-    top: 0;
+    top: 3%;
     right: 0;
+    padding: 0 0.6rem;
+}
+
+.txt-red {
+    color: red;
+    font-weight: bold;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.card-txt div:nth-child(2) {
+    font-weight: bold;
 }
