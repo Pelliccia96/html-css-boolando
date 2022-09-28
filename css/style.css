@@ -10,6 +10,17 @@
     margin: auto;
 }
 
+main .container {
+    margin-top: 7rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
 .nav-bg {
     background-color: #ff6900;
     padding: 1rem;
