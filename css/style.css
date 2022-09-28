@@ -13,6 +13,7 @@
 .nav-bg {
     background-color: #ff6900;
     padding: 1rem;
+    margin-bottom: 3rem;
 }
 
 .nav-bar {
@@ -53,13 +54,16 @@ header .login i {
 }
 
 .card {
-    width: 30%;
-    padding-top: 3rem;
+    width: 33%;
+    padding-right: 1.5rem;
+    padding-bottom: 3rem;
+    display: inline-block;
 }
 
 .card img {
     width: 100%;
     display: block;
+    z-index: 0;
 }
 
 .card-img {
@@ -104,4 +108,18 @@ header .login i {
 
 .card-txt div:nth-child(2) {
     font-weight: bold;
+}
+
+.card-img .hearth:hover {
+    color: red;
+}
+
+.card-img:hover {
+    background-image: url('../img/1b.webp');
+    background-position: center;
+    z-index: 1;
+}
+
+.card-img .discount.written2 {
+    background-color: green;
 }
