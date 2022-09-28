@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 920px;
+    margin: auto;
+}
+
+.nav-bg {
+    background-color: #ff6900;
+    padding: 1.5rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+header .list ul {
+    list-style: none;
+    display: flex;
+}
+
+.logo img {
+    width: 25%;
+    display: block;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+}
+
+header .login {
+    display: flex;
+    color: white;
+}
+
+header .login i {
+    padding: 0.5rem;
+}
