@@ -125,10 +125,28 @@ header .login i {
     color: red;
 }
 
-.card-img:hover {
-    background-image: url('../img/1b.webp');
-    background-position: center;
-    z-index: 1;
+.card-img img:hover {
+    content: url('../img/1b.webp');
+}
+
+.card-img #img2:hover {
+    content: url('../img/2b.webp');
+}
+
+.card-img #img3:hover {
+    content: url('../img/3b.webp');
+}
+
+.card-img #img4:hover {
+    content: url('../img/4b.webp');
+}
+
+.card-img #img5:hover {
+    content: url('../img/5b.webp');
+}
+
+.card-img #img6:hover {
+    content: url('../img/6b.webp');
 }
 
 .card-img .discount.written2 {
